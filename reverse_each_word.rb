@@ -8,5 +8,5 @@ def reverse_each_word(sentence1)
     new_array << words.reversed
     binding.pry
   end
-  new_array.join(" ")
+  # new_array.join(" ")
 end
