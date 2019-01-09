@@ -1,13 +1,12 @@
 require 'pry'
 # binding.pry
 
-original_array = ["Hello there, and how are you?"]
 
-def reverse_each_word(original_array)
-  original_array = original_array.split(" ")
+def reverse_each_word(string)
+  original_array = string.split(" ")
   new_array []
-  original_array.each do|word|
-    new_array << original_array.reversed
+  original_array.each do|string|
+    new_array << string.reversed
   end
   new_array.join(" ")
 end
